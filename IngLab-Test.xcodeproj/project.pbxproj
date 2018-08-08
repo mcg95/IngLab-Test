@@ -15,6 +15,13 @@
 		71A602C62118551A00F43E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A602C42118551A00F43E87 /* LaunchScreen.storyboard */; };
 		71A602D12118551B00F43E87 /* IngLab_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602D02118551B00F43E87 /* IngLab_TestTests.swift */; };
 		71A602DC2118551B00F43E87 /* IngLab_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602DB2118551B00F43E87 /* IngLab_TestUITests.swift */; };
+		71A602F421185D8B00F43E87 /* JSONLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602F321185D8B00F43E87 /* JSONLoadService.swift */; };
+		71A602F621185DDB00F43E87 /* JSONStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602F521185DDB00F43E87 /* JSONStructure.swift */; };
+		71A602F821185E0800F43E87 /* ImageLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602F721185E0700F43E87 /* ImageLoadService.swift */; };
+		71A602FC21185E1E00F43E87 /* DocumentLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602FA21185E1E00F43E87 /* DocumentLoaderProtocol.swift */; };
+		71A602FD21185E1E00F43E87 /* FileDownloaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602FB21185E1E00F43E87 /* FileDownloaderProtocol.swift */; };
+		71A602FF211860B700F43E87 /* TimeBasedExpiryCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A602FE211860B700F43E87 /* TimeBasedExpiryCacheService.swift */; };
+		71A6030A21197F5E00F43E87 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6030921197F5E00F43E87 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,19 @@
 		71A602D72118551B00F43E87 /* IngLab-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IngLab-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A602DB2118551B00F43E87 /* IngLab_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngLab_TestUITests.swift; sourceTree = "<group>"; };
 		71A602DD2118551B00F43E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A602F321185D8B00F43E87 /* JSONLoadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoadService.swift; sourceTree = "<group>"; };
+		71A602F521185DDB00F43E87 /* JSONStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONStructure.swift; sourceTree = "<group>"; };
+		71A602F721185E0700F43E87 /* ImageLoadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadService.swift; sourceTree = "<group>"; };
+		71A602FA21185E1E00F43E87 /* DocumentLoaderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentLoaderProtocol.swift; sourceTree = "<group>"; };
+		71A602FB21185E1E00F43E87 /* FileDownloaderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDownloaderProtocol.swift; sourceTree = "<group>"; };
+		71A602FE211860B700F43E87 /* TimeBasedExpiryCacheService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeBasedExpiryCacheService.swift; sourceTree = "<group>"; };
+		71A603022118640600F43E87 /* DocumentLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLoaderProtocol.swift; sourceTree = "<group>"; };
+		71A603032118640600F43E87 /* FileDownloaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloaderProtocol.swift; sourceTree = "<group>"; };
+		71A603052118640600F43E87 /* JSONStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructure.swift; sourceTree = "<group>"; };
+		71A603062118640600F43E87 /* JSONLoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoadService.swift; sourceTree = "<group>"; };
+		71A603072118640600F43E87 /* TimeBasedExpiryCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedExpiryCacheService.swift; sourceTree = "<group>"; };
+		71A603082118640600F43E87 /* ImageLoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadService.swift; sourceTree = "<group>"; };
+		71A6030921197F5E00F43E87 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,7 @@
 		71A602AC2118551600F43E87 = {
 			isa = PBXGroup;
 			children = (
+				71A603002118640600F43E87 /* ImageLoadingLibrary */,
 				71A602B72118551600F43E87 /* IngLab-Test */,
 				71A602CF2118551B00F43E87 /* IngLab-TestTests */,
 				71A602DA2118551B00F43E87 /* IngLab-TestUITests */,
@@ -99,6 +120,7 @@
 		71A602B72118551600F43E87 /* IngLab-Test */ = {
 			isa = PBXGroup;
 			children = (
+				71A602E92118569000F43E87 /* ImageLoadingLibrary */,
 				71A602B82118551600F43E87 /* AppDelegate.swift */,
 				71A602BA2118551600F43E87 /* ViewController.swift */,
 				71A602BC2118551600F43E87 /* Main.storyboard */,
@@ -106,6 +128,7 @@
 				71A602C42118551A00F43E87 /* LaunchScreen.storyboard */,
 				71A602C72118551B00F43E87 /* Info.plist */,
 				71A602BF2118551600F43E87 /* IngLab_Test.xcdatamodeld */,
+				71A6030921197F5E00F43E87 /* DetailViewController.swift */,
 			);
 			path = "IngLab-Test";
 			sourceTree = "<group>";
@@ -126,6 +149,65 @@
 				71A602DD2118551B00F43E87 /* Info.plist */,
 			);
 			path = "IngLab-TestUITests";
+			sourceTree = "<group>";
+		};
+		71A602E92118569000F43E87 /* ImageLoadingLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				71A602F921185E0C00F43E87 /* Protocols */,
+				71A602F221185D7600F43E87 /* Services */,
+			);
+			path = ImageLoadingLibrary;
+			sourceTree = "<group>";
+		};
+		71A602F221185D7600F43E87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71A602FE211860B700F43E87 /* TimeBasedExpiryCacheService.swift */,
+				71A602F721185E0700F43E87 /* ImageLoadService.swift */,
+				71A602F521185DDB00F43E87 /* JSONStructure.swift */,
+				71A602F321185D8B00F43E87 /* JSONLoadService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		71A602F921185E0C00F43E87 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				71A602FA21185E1E00F43E87 /* DocumentLoaderProtocol.swift */,
+				71A602FB21185E1E00F43E87 /* FileDownloaderProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		71A603002118640600F43E87 /* ImageLoadingLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				71A603012118640600F43E87 /* Protocols */,
+				71A603042118640600F43E87 /* Services */,
+			);
+			name = ImageLoadingLibrary;
+			path = "IngLab-Test/ImageLoadingLibrary";
+			sourceTree = "<group>";
+		};
+		71A603012118640600F43E87 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				71A603022118640600F43E87 /* DocumentLoaderProtocol.swift */,
+				71A603032118640600F43E87 /* FileDownloaderProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		71A603042118640600F43E87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71A603052118640600F43E87 /* JSONStructure.swift */,
+				71A603062118640600F43E87 /* JSONLoadService.swift */,
+				71A603072118640600F43E87 /* TimeBasedExpiryCacheService.swift */,
+				71A603082118640600F43E87 /* ImageLoadService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +341,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A602FD21185E1E00F43E87 /* FileDownloaderProtocol.swift in Sources */,
 				71A602BB2118551600F43E87 /* ViewController.swift in Sources */,
+				71A602F821185E0800F43E87 /* ImageLoadService.swift in Sources */,
 				71A602B92118551600F43E87 /* AppDelegate.swift in Sources */,
+				71A602FC21185E1E00F43E87 /* DocumentLoaderProtocol.swift in Sources */,
+				71A602FF211860B700F43E87 /* TimeBasedExpiryCacheService.swift in Sources */,
 				71A602C12118551600F43E87 /* IngLab_Test.xcdatamodeld in Sources */,
+				71A6030A21197F5E00F43E87 /* DetailViewController.swift in Sources */,
+				71A602F421185D8B00F43E87 /* JSONLoadService.swift in Sources */,
+				71A602F621185DDB00F43E87 /* JSONStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +522,7 @@
 		71A602E12118551B00F43E87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D3474FP86;
@@ -451,6 +541,7 @@
 		71A602E22118551B00F43E87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2D3474FP86;
